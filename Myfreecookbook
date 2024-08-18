@@ -1,0 +1,191 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookbook</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            width: 100%;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            color: #333;
+        }
+        section {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px 0;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        section h2 {
+            margin-top: 0;
+            font-size: 1.5em;
+            color: #333;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            text-align: center;
+            font-size: 0.9em;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .recipe {
+            margin-bottom: 15px;
+        }
+        .recipe h3 {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+        .recipe p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Your Cookbook</h1>
+</header>
+
+<section>
+    <h2>About the Cookbook</h2>
+    <p>Welcome to the ultimate collection of low-calorie recipes from around the world. This cookbook is designed to help you enjoy delicious meals while staying mindful of your health goals. Whether you're looking to reduce fat, increase protein intake, or boost your vitamin and mineral levels, we've got something for everyone.</p>
+</section>
+
+<section>
+    <h2>Cookbook</h2>
+
+    <h3>Low Fat</h3>
+    <div class="recipe">
+        <h3>1. Japanese Miso Soup</h3>
+        <p>A light and flavorful soup made with miso paste, tofu, seaweed, and green onions. Perfect for a low-calorie, low-fat meal.</p>
+        <p><strong>Calories:</strong> 50 per serving</p>
+    </div>
+    <div class="recipe">
+        <h3>2. Greek Tzatziki</h3>
+        <p>A refreshing dip made from Greek yogurt, cucumber, garlic, and dill. Serve it with fresh vegetables or grilled meats.</p>
+        <p><strong>Calories:</strong> 40 per serving</p>
+    </div>
+    <div class="recipe">
+        <h3>3. Vietnamese Spring Rolls</h3>
+        <p>Fresh rolls filled with vegetables, herbs, and rice noodles, served with a light dipping sauce.</p>
+        <p><strong>Calories:</strong> 70 per roll</p>
+    </div>
+    <div class="recipe">
+        <h3>4. Tomato Basil Soup</h3>
+        <p>A classic soup made with fresh tomatoes and basil, perfect for a light and healthy meal.</p>
+        <p><strong>Calories:</strong> 80 per serving</p>
+    </div>
+    <div class="recipe">
+        <h3>5. Moroccan Chickpea Salad</h3>
+        <p>A vibrant salad made with chickpeas, cucumbers, tomatoes, and a lemon-tahini dressing.</p>
+        <p><strong>Calories:</strong> 120 per serving</p>
+    </div>
+    <div class="recipe">
+        <h3>6. Spicy Black Bean Soup</h3>
+        <p>A hearty soup made with black beans, tomatoes, and spices for a low-fat, flavorful meal.</p>
+        <p><strong>Calories:</strong> 150 per serving</p>
+    </div>
+    <div class="recipe">
+        <h3>7. Cauliflower Rice Stir-Fry</h3>
+        <p>A low-calorie alternative to traditional rice, stir-fried with vegetables and a light sauce.</p>
+        <p><strong>Calories:</strong> 100 per serving</p>
+    </div>
+    <div class="recipe">
+        <h3>8. Lentil and Vegetable Stew</h3>
+        <p>A comforting stew made with lentils and a variety of vegetables.</p>
+        <p><strong>Calories:</strong> 200 per serving</p>
+    </div>
+    <div class="recipe">
+        <h3>9. Cucumber and Avocado Salad</h3>
+        <p>A refreshing salad with cucumber, avocado, and a tangy lime dressing.</p>
+        <p><strong>Calories:</strong> 90 per serving</p>
+    </div>
+    <div class="recipe">
+        <h3>10. Sweet Potato and Black Bean Tacos</h3>
+        <p>Tacos filled with roasted sweet potatoes and black beans, topped with fresh salsa.</p>
+        <p><strong>Calories:</strong> 180 per taco</p>
+    </div>
+
+    <h3>High Protein</h3>
+    <div class="recipe">
+        <h3>1. Grilled Chicken Breast with Quinoa</h3>
+        <p>A lean source of protein paired with quinoa, a nutrient-rich grain. Season with lemon, garlic, and herbs for a satisfying meal.</p>
+        <p><strong>Calories:</strong> 300 per serving</p>
+    </div>
+    <div class="recipe">
+        <h3>2. Indian Lentil Soup (Dal)</h3>
+        <p>A hearty soup made from lentils, spices, and tomatoes. High in protein and perfect for a filling, low-calorie meal.</p>
+        <p><strong>Calories:</strong> 200 per serving</p>
+    </div>
+    <div class="recipe">
+        <h3>3. Turkey and Spinach Meatballs</h3>
+        <p>Lean turkey mixed with spinach and spices, baked into flavorful meatballs.</p>
+        <p><strong>Calories:</strong> 250 per serving</p>
+    </div>
+    <div class="recipe">
+        <h3>4. Baked Salmon with Asparagus</h3>
+        <p>Salmon fillets baked with a light seasoning, served with roasted asparagus.</p>
+        <p><strong>Calories:</strong> 350 per serving</p>
+    </div>
+    <div class="recipe">
+        <h3>5. Greek Yogurt Chicken Salad</h3>
+        <p>A protein-packed chicken salad made with Greek yogurt, celery, and herbs.</p>
+        <p><strong>Calories:</strong> 220 per serving</p>
+    </div>
+    <div class="recipe">
+        <h3>6. Edamame and Corn Salad</h3>
+        <p>A protein-rich salad with edamame, corn, and a light vinaigrette.</p>
+        <p><strong>Calories:</strong> 180 per serving</p>
+    </div>
+    <div class="recipe">
+        <h3>7. Cottage Cheese and Fruit Parfait</h3>
+        <p>Cottage cheese layered with fresh fruit and a drizzle of honey.</p>
+        <p><strong>Calories:</strong> 150 per serving</p>
+    </div>
+    <div class="recipe">
+        <h3>8. Tuna Stuffed Bell Peppers</h3>
+        <p>Bell peppers filled with a mixture of tuna, rice, and vegetables.</p>
+        <p><strong>Calories:</strong> 250 per pepper</p>
+    </div>
+    <div class="recipe">
+        <h3>9. Quinoa and Black Bean Salad</h3>
+        <p>A protein-packed salad with quinoa, black beans, corn, and avocado.</p>
+        <p><strong>Calories:</strong> 200 per serving</p>
+    </div>
+    <div class="recipe">
+        <h3>10. Egg White Frittata</h3>
+        <p>An egg white frittata with spinach, mushrooms, and bell peppers.</p>
+        <p><strong>Calories:</strong> 180 per serving</p>
+    </div>
+
+    <h3>High in Vitamins and Minerals</h3
